@@ -5,7 +5,7 @@ describe ("Triangle Test",()=>{
         const shape = new Triangle();
         shape.setColor("red");
         expect(shape.render()).toEqual(
-            '<polygon points="150, 18 244, 182 56, 182" fill="red" />'
+            '<polygon points="250,60 100,400 400,400" fill="red" />'
         );
     });
 });
@@ -27,6 +27,6 @@ describe("Circle test",()=>{
         shape.setColor("blue");
         expect(shape.render()).toEqual(
             '<circle cx="150" cy="115" r="80" fill="blue" />'
-        )
-    })
-})
+        );
+    });
+});
